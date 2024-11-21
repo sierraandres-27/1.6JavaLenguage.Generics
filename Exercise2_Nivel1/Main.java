@@ -10,7 +10,6 @@ public class Main {
 
         GenericMethods.getobjects( 5890,"Buenos días",new Persona("Mario","Ortiz",33));
 
-        
 
     }
 

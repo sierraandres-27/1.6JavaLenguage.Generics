@@ -3,11 +3,11 @@ package Exerciese1_Nivel1;
 
 public class NoGenericMethods<T> {
 
-    private T first;
-    private T second;
-    private T third;
+    private int first;
+    private int second;
+    private int third;
 
-    public NoGenericMethods(T fisrt, T second, T third){
+    public NoGenericMethods(int fisrt, int second, int third){
 
         this.first=fisrt;
 
@@ -17,32 +17,32 @@ public class NoGenericMethods<T> {
 
     }
 
-    public void setFirst (T first){
+    public void setFirst (int first){
 
         this.first=first;
     }
 
-    public void setSecond (T second){
+    public void setSecond (int second){
 
         this.second=second;
     }
 
-    public void setThird(T third){
+    public void setThird(int third){
 
         this.third=third;
     }
 
-    public T getFirst (){
+    public int getFirst (){
 
         return first;
     }
 
-    public T getSecond (){
+    public int getSecond (){
 
         return second;
     }
 
-    public T getThird (){
+    public int getThird (){
 
         return third;
     }
